@@ -19,13 +19,13 @@ function generatePassword() {
     //breaking the loop
     continue_program = false;
   }
-
+  //validation
   while ((pwd_range < 8 || pwd_range > 128) && (continue_program == true)) {
     pwd_range = window.prompt("Invalid selection,\nPlease enter the password between range");
 
 
   }
-
+  //Asking for password certiria
   let typeSelection = 0;
   let lowercase_selection = false;
   let uppercase_selection = false;
@@ -67,13 +67,13 @@ function generatePassword() {
     }
 
   }
-
+  //slice function
   let upperCaseChar = passwordCharacters.slice(0, 25);
   let lowerCaseChar = passwordCharacters.slice(26, 51);
   let numericCaseChar = passwordCharacters.slice(52, 61);
   let specialCaseChar = passwordCharacters.slice(62, 69);
 
-
+  //generating password
   let l_random = 0;
   let u_random = 0;
   let n_random = 0;
