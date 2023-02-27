@@ -1,4 +1,4 @@
-# Password Generator Starter Code
+# Password Generator
 
 ## Description
  In Password Generator web application the password is generated accroding to the input certiria of the user. There are many options for the user to select the password cretiria like,
@@ -30,12 +30,14 @@
 
 ## URLs:-
 Here, you can find the webpage.
+
 Paswword generator web application's URL:- 
+https://anujalawankar.github.io/assignment-module-3/
 
 
-Here, you can find the GitHub url.
+Here, you can find the GitHub URL:-
+GitHub URL:- https://github.com/AnujaLawankar/assignment-module-3
 
-GitHub URL:- 
 
 
 ## Installation
